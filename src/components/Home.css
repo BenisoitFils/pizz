@@ -1,0 +1,94 @@
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.pizza-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.pizza-img {
+    width: 100%;
+    height: auto;
+}
+
+.pizza-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.pizza-ingredients {
+    text-align: left;
+    padding: 0 10px;
+}
+
+.pizza-ingredients h4 {
+    margin: 10px 0 5px;
+    font-size: 1em;
+}
+
+.pizza-ingredients ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pizza-ingredients li {
+    margin-bottom: 5px;
+}
+
+.pizza-price {
+    font-size: 1.5em;
+    color: green;
+    margin: 10px 0;
+}
+
+.pizza-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 2px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.view-more-btn {
+    background-color: #17a2b8;
+}
+
+.view-more-btn:hover {
+    background-color: #117a8b;
+}
+
+.add-to-cart-btn {
+    background-color: #28a745;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #218838;
+}

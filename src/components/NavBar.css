@@ -1,0 +1,49 @@
+.navbar-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: url('../assets/pizza-background.jpg'); /* Chemin de l'image */
+    background-size: cover;
+    background-position: center;
+    height: 50vh; /* Ajustez la hauteur selon vos besoins */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem; /* Réduit la taille du padding */
+    background: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour le navbar */
+    height: 20px; /* Ajustez la hauteur selon vos besoins */
+}
+
+.home-link, .cart-link {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.icon {
+    margin-right: 0.5rem;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour le texte */
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.header-content h1 {
+    font-size: 2.5rem; /* Réduit la taille du titre */
+    margin-bottom: 1rem;
+}
+
+.header-content p {
+    font-size: 1.2rem; /* Réduit la taille du slogan */
+}
